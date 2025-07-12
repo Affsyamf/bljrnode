@@ -6,10 +6,10 @@ const getUser = (id, cb)  =>{
     }, time);
 };
 
-const userSatu = getUser (1, (hasil) => {
+const userSatu = getUser (2, (hasil) => {
     console.log(hasil);
 });
-const userDua = getUser (2, (hasil) => {
+const userDua = getUser (1, (hasil) => {
     console.log(hasil);
 });
 
