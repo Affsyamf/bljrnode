@@ -6,9 +6,15 @@
 
 // const cetakNama = (nama) => 'halo ' + nama;
 // console.log(cetakNama('afif')); 
+// const fs = require('fs');
 
-const cetakNama = require('./cobaa'); // Memanggil file coba.js
-
+// const cetakNama = require('./cobaa'); // Memanggil file coba.js
+// const moment = require('moment'); // Memanggil library moment
 // console.log('halo world')
 
-console.log (cetakNama('afif')); // Memanggil fungsi dari coba.js
+const cobaa = require('./cobaa'); // Memanggil file cobaa.js
+
+console.log (
+    cobaa.cetakNama('afif'),
+    cobaa.phi, cobaa.mhs.cetakMhs(), 
+    new cobaa.org); // Memanggil fungsi dari coba.js
